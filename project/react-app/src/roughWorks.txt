@@ -1,0 +1,32 @@
+App Structure
+--------------
+
+src
+--------- actions
+
+        -- api.js (handle all http request)
+        -- dbCadidate.js (Redux actions & action creators)
+        -- store.js (configure redux store)
+
+--------- Components
+
+        -- DBCadidateForm.js (form operations)
+        -- dbCadidates.js (list of records)
+        -- useForm.js (handle common form operations)
+
+--------- reducers
+
+        --dCandidate.js
+        --index.js
+
+-- App.js
+-- index.js
+-- index.css
+
+redux. react-redux. redux-thunk
+
+action - create, update, delete etc .data
+reducers
+store
+
+Components -> dispatch(action) -> reducers -> Components
